@@ -2,10 +2,10 @@
 [//]: # (Image References)
 
 [image1]: ./carUndistort.png "Undistorted"
-[image2]: ./egimages/chessboard.png "Undistorted"
-[image3]: ./egimages/laneBinary.png "Binary"
-[image4]: ./egimages/result.png "Result"
-[image5]: ./egimages/birdsEye.png "Top Down View"
+[image2]: ./chessboard.png "Undistorted"
+[image3]: ./laneBinary.png "Binary"
+[image4]: ./result.png "Result"
+[image5]: ./birdsEye.png "Top Down View"
 
 # Advanced Lane Finding
 The challenge in this project is to detect a lane on a driving track whose video is given. This is the 4th project in Term 1 of Udacity Self Driving Car nanodegree.
