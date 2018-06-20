@@ -60,7 +60,7 @@ The next step is to convert the color image into a binary image which is more us
 Below is an example of all the three images in the following order: Original Image, Binary Image and Masked Image.
 ![][image3]
 
-## Transformation
+## 3. Transformation
 After the previous step the image is transformed into a top down view or the bird's eye view as this view is more suitable for our task of finding the lane lines and their further parameters like curvature etc. The steps to do that are as follows:
  Apply cv2.getPerspectiveTransform(src,dst) to find a perspective transform matrix from source coordinate src and transform to destination dst.
 
@@ -69,7 +69,7 @@ After the previous step the image is transformed into a top down view or the bir
 
 The Udacity's help codes are being referred for the src and dst.
 
-## Lane Lines Polynomial
+## 4. Lane Lines Polynomial
 The method to find lane lines polynomial is:
 
 1. Find the highest peak locations of white pixels in binary image using the histogram plot.
