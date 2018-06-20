@@ -1,7 +1,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./egimages/carUndistort.png "Undistorted"
+[image1]: ./carUndistort.png "Undistorted"
 [image2]: ./egimages/chessboard.png "Undistorted"
 [image3]: ./egimages/laneBinary.png "Binary"
 [image4]: ./egimages/result.png "Result"
