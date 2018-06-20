@@ -99,7 +99,7 @@ These  scaling factors are inferred from the fact that the width of the lane is 
 
 ## Results (Video)
 
-Found on github
+Found on github and youtube : https://youtu.be/8yXhAj-ftgU
 
 ## Future Works
 1. Code can be made faster by skipping the finding of all the left and right lane pixels for all the images by just doing it for the first time and then checking whether the polynomial cover some x percentage of white pixels on it or not and if this case isn't met then a function can be called to find the new lane line pixels as an update is needed.
